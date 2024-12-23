@@ -1,0 +1,7 @@
+/* hidden.css */
+#portfolio {
+    display: none; /* Hide the portfolio section */
+}
+#header.major h3 a.link[href*="Tempus"] {
+    display: none; /* Hides the link containing "Tempus" */
+}

@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/hidden.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -65,28 +66,36 @@
 									<header class="major">
 										<h2>Muddiest Points</h2>
 									</header>
-									<p>At CityU-Seattle, I worked on assyncronous learning. This is when a student would get points for telling me what he or she struggled with. I would read all these Muddiest Points and compose a lecture based off of that. After a week of the video being posted, I see students improve in their Hands on Labs. This means, there is a delta of 2 weeks from the time a student expresses their difficulty and the student applies my suggestions from the video.</p>
+									<p>At CityU-Seattle, I worked on asyncronous learning. This is when a student would get points for telling me what he or she struggled with. I would read all these Muddiest Points and compose a lecture based off of that. After a week of the video being posted, I see students improve in their Hands on Labs. This means, there is a delta of 2 weeks from the time a student expresses their difficulty and the student applies my suggestions from the video.</p>
 								</div>
 							</section>
 
-						<!-- Two -->
 						<section id="two" class="spotlights">
 							<section>
-								<div class="image" style="position: relative; width: 100%; height: auto;">
+								<div class="image" style="position: relative; width: 576px; height: 515px; margin: 0 auto;">
 									<!-- Background Image -->
 									<a href="generic.html" class="image">
-										<img src="images/pic09.jpg" alt="" data-position="top center" style="width: 100%; height: auto;" />
+										<img id="backgroundImage" src="images/pic09.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
 									</a>
 									<!-- Video Player Overlay -->
 									<iframe
+											id="videoIframe"
 											src="https://drive.google.com/file/d/1xJ1et-tYKQ2_nXnjUpLScvPmrvZFstyS/preview"
-											style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 80%; height: 60%; border: none;"
-											allow="autoplay; encrypted-media"
-											allowfullscreen>
+											style="
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 554px;
+                    height: 329px;
+                    background: transparent;
+                    z-index: 2;
+                    border: none;">
 									</iframe>
 								</div>
 								<div class="content">
 									<div class="inner">
+										<!--
 										<header class="major">
 											<h3>Orci maecenas</h3>
 										</header>
@@ -94,15 +103,19 @@
 										<ul class="actions">
 											<li><a href="generic.html" class="button">Learn more</a></li>
 										</ul>
+										-->
 									</div>
 								</div>
 							</section>
 						</section>
 
 
+
+
 						<!-- Three -->
 							<section id="three">
 								<div class="inner">
+									<!--
 									<header class="major">
 										<h2>Massa libero</h2>
 									</header>
@@ -110,6 +123,7 @@
 									<ul class="actions">
 										<li><a href="generic.html" class="button next">Get Started</a></li>
 									</ul>
+									-->
 								</div>
 							</section>
 
@@ -160,7 +174,7 @@
 										<span class="icon solid alt fa-home"></span>
 										<h3>Address</h3>
 										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
+										Seattle, WA 00000<br />
 										United States of America</span>
 									</div>
 								</section>
@@ -179,7 +193,7 @@
 								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Theme: Forty</li><li>Design by @ajlkn: <a href="https://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</footer>
