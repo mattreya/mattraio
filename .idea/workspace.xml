@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="forgot to add the &quot;As a Learner&quot; text to index.html">
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="correct typo in learner.html">
+      <change beforePath="$PROJECT_DIR$/innovator.html" beforeDir="false" afterPath="$PROJECT_DIR$/innovator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learner.html" beforeDir="false" afterPath="$PROJECT_DIR$/learner.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735266115969</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="correct typo in learner.html">
+      <option name="closed" value="true" />
+      <created>1735266258230</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1735266258230</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,6 +170,7 @@
     <MESSAGE value="index page - modified menu options. hid the generic html and th elements option" />
     <MESSAGE value="created new page - As a Learner and modified links and text. Referenced areas of learning." />
     <MESSAGE value="forgot to add the &quot;As a Learner&quot; text to index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="forgot to add the &quot;As a Learner&quot; text to index.html" />
+    <MESSAGE value="correct typo in learner.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct typo in learner.html" />
   </component>
 </project>
