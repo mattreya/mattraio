@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="index page - modified menu options. hid the generic html and th elements option">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="created new page - As a Learner and modified links and text. Referenced areas of learning.">
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing3.html" beforeDir="false" afterPath="$PROJECT_DIR$/learner.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735249967199</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="created new page - As a Learner and modified links and text. Referenced areas of learning.">
+      <option name="closed" value="true" />
+      <created>1735265968529</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1735265968529</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +151,7 @@
     <MESSAGE value="innovator page" />
     <MESSAGE value="innovator page ` added text`" />
     <MESSAGE value="index page - modified menu options. hid the generic html and th elements option" />
-    <option name="LAST_COMMIT_MESSAGE" value="index page - modified menu options. hid the generic html and th elements option" />
+    <MESSAGE value="created new page - As a Learner and modified links and text. Referenced areas of learning." />
+    <option name="LAST_COMMIT_MESSAGE" value="created new page - As a Learner and modified links and text. Referenced areas of learning." />
   </component>
 </project>
