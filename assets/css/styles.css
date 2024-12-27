@@ -1,0 +1,10 @@
+.image-container {
+    display: flex;
+    gap: 20px;
+}
+.matched-size {
+    width: 700px;
+    height: auto;
+    object-fit: cover;
+    border: 2px solid #ccc;
+}
