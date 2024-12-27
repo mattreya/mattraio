@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="corrected image size in innovator.html. added new stylesheet to regulate image sizes.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/innovator.html" beforeDir="false" afterPath="$PROJECT_DIR$/innovator.html" afterDir="false" />
-    </list>
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="Added solarwinds pic" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +87,7 @@
       <workItem from="1735068019515" duration="2506000" />
       <workItem from="1735096268711" duration="3303000" />
       <workItem from="1735238067003" duration="521000" />
-      <workItem from="1735335617171" duration="3014000" />
+      <workItem from="1735335617171" duration="3474000" />
     </task>
     <task id="LOCAL-00001" summary="innovator page">
       <option name="closed" value="true" />
@@ -164,7 +161,23 @@
       <option name="project" value="LOCAL" />
       <updated>1735337948364</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added solarwinds pic">
+      <option name="closed" value="true" />
+      <created>1735338776524</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1735338776524</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added solarwinds pic">
+      <option name="closed" value="true" />
+      <created>1735339080704</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1735339080704</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +203,7 @@
     <MESSAGE value="correct typo in learner.html" />
     <MESSAGE value="correct typo in innovator.html and hid the unused text in learner.html" />
     <MESSAGE value="corrected image size in innovator.html. added new stylesheet to regulate image sizes." />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected image size in innovator.html. added new stylesheet to regulate image sizes." />
+    <MESSAGE value="Added solarwinds pic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added solarwinds pic" />
   </component>
 </project>
