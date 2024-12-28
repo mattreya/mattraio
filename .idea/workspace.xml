@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="Added solarwinds pic" />
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="Added solarwinds pic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/innovator.html" beforeDir="false" afterPath="$PROJECT_DIR$/innovator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mentor.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentor.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +92,8 @@
       <workItem from="1735068019515" duration="2506000" />
       <workItem from="1735096268711" duration="3303000" />
       <workItem from="1735238067003" duration="521000" />
-      <workItem from="1735335617171" duration="3474000" />
+      <workItem from="1735335617171" duration="3958000" />
+      <workItem from="1735346399846" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="innovator page">
       <option name="closed" value="true" />
