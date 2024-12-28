@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="Added solarwinds pic">
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="Fixed menu links">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/innovator.html" beforeDir="false" afterPath="$PROJECT_DIR$/innovator.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mentor.html" beforeDir="false" afterPath="$PROJECT_DIR$/mentor.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learner.html" beforeDir="false" afterPath="$PROJECT_DIR$/learner.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,7 @@
       <workItem from="1735096268711" duration="3303000" />
       <workItem from="1735238067003" duration="521000" />
       <workItem from="1735335617171" duration="3958000" />
-      <workItem from="1735346399846" duration="338000" />
+      <workItem from="1735346399846" duration="781000" />
     </task>
     <task id="LOCAL-00001" summary="innovator page">
       <option name="closed" value="true" />
@@ -183,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735339080704</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Fixed menu links">
+      <option name="closed" value="true" />
+      <created>1735346756632</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1735346756632</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +216,7 @@
     <MESSAGE value="correct typo in innovator.html and hid the unused text in learner.html" />
     <MESSAGE value="corrected image size in innovator.html. added new stylesheet to regulate image sizes." />
     <MESSAGE value="Added solarwinds pic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added solarwinds pic" />
+    <MESSAGE value="Fixed menu links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed menu links" />
   </component>
 </project>
