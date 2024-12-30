@@ -6,13 +6,20 @@
 -->
 <html>
 	<head>
-		<title>Landing - Forty by HTML5 UP</title>
+		<title>Terminal - Forty by HTML5 UP</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+		<link rel="stylesheet" href="../../assets/css/xterm.css">
+		<noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
 	</head>
+	<body>
+	<div id="terminal-container"></div>
+
+	<script src="../src/TerminalComponent.js"></script>
+	</body>
 	<body class="is-preload">
+
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -20,7 +27,7 @@
 				<!-- Header -->
 				<!-- Note: The "styleN" class below should match that of the banner element. -->
 					<header id="header" class="alt style2">
-						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
+						<a href="../../index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -28,12 +35,14 @@
 
 				<!-- Menu -->
 					<nav id="menu">
+						<!--
 						<ul class="links">
 							<li><a href="index.html">Home</a></li>
 							<li><a href="landing.html">Landing</a></li>
 							<li><a href="generic.html">Generic</a></li>
 							<li><a href="elements.html">Elements</a></li>
 						</ul>
+						-->
 						<ul class="actions stacked">
 							<li><a href="#" class="button primary fit">Get Started</a></li>
 							<li><a href="#" class="button fit">Log In</a></li>
@@ -45,14 +54,13 @@
 					<section id="banner" class="style2">
 						<div class="inner">
 							<span class="image">
-								<img src="images/pic07.jpg" alt="" />
+								<img src="../../images/pic07.jpg" alt="" />
 							</span>
 							<header class="major">
-								<h1>Landing</h1>
+								<h1>Terminal</h1>
 							</header>
 							<div class="content">
-								<p>Lorem ipsum dolor sit amet nullam consequat<br />
-								sed veroeros. tempus adipiscing nulla.</p>
+								<p>Have some fun using BASH!<br /></p>
 							</div>
 						</div>
 					</section>
@@ -64,17 +72,19 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>Sed amet aliquam</h2>
+										<h2>Fun Project: Can I create a terminal using React.js?</h2>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+									<p>I've seen terminal stuff on websites. The next question is can I literally embed a REAL terminal inside a webpage? We shall learn how to do so.</p>
 								</div>
 							</section>
 
 						<!-- Two -->
 							<section id="two" class="spotlights">
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic08.jpg" alt="" data-position="center center" />
+									<a href="../../generic.html" class="image">
+										<img src="../../images/pic08.jpg" alt="" data-position="center center" />
+											<iframe src="/react-terminal" style="width: 100%; height: 100%; border: none;"></iframe>
+
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -83,14 +93,14 @@
 											</header>
 											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="../../generic.html" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic09.jpg" alt="" data-position="top center" />
+									<a href="../../generic.html" class="image">
+										<img src="../../images/pic09.jpg" alt="" data-position="top center" />
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -99,14 +109,14 @@
 											</header>
 											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="../../generic.html" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
 								</section>
 								<section>
-									<a href="generic.html" class="image">
-										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									<a href="../../generic.html" class="image">
+										<img src="../../images/pic10.jpg" alt="" data-position="25% 25%" />
 									</a>
 									<div class="content">
 										<div class="inner">
@@ -115,7 +125,7 @@
 											</header>
 											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
 											<ul class="actions">
-												<li><a href="generic.html" class="button">Learn more</a></li>
+												<li><a href="../../generic.html" class="button">Learn more</a></li>
 											</ul>
 										</div>
 									</div>
@@ -130,7 +140,7 @@
 									</header>
 									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
 									<ul class="actions">
-										<li><a href="generic.html" class="button next">Get Started</a></li>
+										<li><a href="../../generic.html" class="button next">Get Started</a></li>
 									</ul>
 								</div>
 							</section>
@@ -209,13 +219,31 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/jquery.scrolly.min.js"></script>
+			<script src="../../assets/js/jquery.scrollex.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+			<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+			<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
 
 	</body>
+	<script>
+		const TerminalComponent = React.createElement(
+				TerminalComponent,
+				null,
+				null
+		);
+		ReactDOM.render(TerminalComponent, document.getElementById('terminal-container'));
+	</script>
+	<script src="../src/TerminalComponent.js"></script>
+	<script>
+		ReactDOM.render(
+				React.createElement(TerminalApp),
+				document.getElementById('terminal-container')
+		);
+	</script>
+
 </html>

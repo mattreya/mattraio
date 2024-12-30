@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="Fixed menu links">
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="fixed menu link in learner.html">
+      <change afterPath="$PROJECT_DIR$/assets/css/xterm.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-terminal/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-terminal/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-terminal/src/TerminalComponent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing4.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-terminal/public/terminal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/learner.html" beforeDir="false" afterPath="$PROJECT_DIR$/learner.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +73,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\matt.raio\WebstormProjects\SimplePortfolio" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\matt.raio\WebstormProjects\SimplePortfolio\react-terminal\public" />
+      <recent name="C:\Users\matt.raio\WebstormProjects\SimplePortfolio\react-terminal\src" />
+      <recent name="C:\Users\matt.raio\WebstormProjects\SimplePortfolio\assets\js\react" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -91,7 +102,10 @@
       <workItem from="1735096268711" duration="3303000" />
       <workItem from="1735238067003" duration="521000" />
       <workItem from="1735335617171" duration="3958000" />
-      <workItem from="1735346399846" duration="781000" />
+      <workItem from="1735346399846" duration="1427000" />
+      <workItem from="1735420676165" duration="2683000" />
+      <workItem from="1735425848141" duration="45000" />
+      <workItem from="1735601606364" duration="134000" />
     </task>
     <task id="LOCAL-00001" summary="innovator page">
       <option name="closed" value="true" />
@@ -189,7 +203,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735346756632</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixed menu link in learner.html">
+      <option name="closed" value="true" />
+      <created>1735347231167</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1735347231167</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +239,7 @@
     <MESSAGE value="corrected image size in innovator.html. added new stylesheet to regulate image sizes." />
     <MESSAGE value="Added solarwinds pic" />
     <MESSAGE value="Fixed menu links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed menu links" />
+    <MESSAGE value="fixed menu link in learner.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed menu link in learner.html" />
   </component>
 </project>
