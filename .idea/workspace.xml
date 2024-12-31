@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="fixed menu link in learner.html">
-      <change afterPath="$PROJECT_DIR$/assets/css/xterm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-terminal/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-terminal/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-terminal/src/TerminalComponent.js" afterDir="false" />
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="added big O notation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing4.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-terminal/public/terminal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learner.html" beforeDir="false" afterPath="$PROJECT_DIR$/learner.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +98,8 @@
       <workItem from="1735346399846" duration="1427000" />
       <workItem from="1735420676165" duration="2683000" />
       <workItem from="1735425848141" duration="45000" />
-      <workItem from="1735601606364" duration="134000" />
+      <workItem from="1735601606364" duration="303000" />
+      <workItem from="1735606311568" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="innovator page">
       <option name="closed" value="true" />
@@ -211,7 +205,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735347231167</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added big O notation">
+      <option name="closed" value="true" />
+      <created>1735601770703</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1735601770703</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +242,7 @@
     <MESSAGE value="Added solarwinds pic" />
     <MESSAGE value="Fixed menu links" />
     <MESSAGE value="fixed menu link in learner.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed menu link in learner.html" />
+    <MESSAGE value="added big O notation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added big O notation" />
   </component>
 </project>
