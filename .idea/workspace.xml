@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="new web page CurriculumVitae.html" />
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="removed button in menu for CurriculumVitae.html">
+      <change beforePath="$PROJECT_DIR$/CurriculumVitae.html" beforeDir="false" afterPath="$PROJECT_DIR$/CurriculumVitae.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +37,12 @@
     &quot;accountId&quot;: &quot;68535b2f-a317-4693-b1d8-5f7db7c3827b&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CurriculumVitae.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -99,6 +107,7 @@
       <workItem from="1735601606364" duration="303000" />
       <workItem from="1735606311568" duration="1896000" />
       <workItem from="1735766328234" duration="1788000" />
+      <workItem from="1735790939522" duration="310000" />
     </task>
     <task id="LOCAL-00001" summary="innovator page">
       <option name="closed" value="true" />
@@ -236,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735767978629</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="removed button in menu for CurriculumVitae.html">
+      <option name="closed" value="true" />
+      <created>1735791004200</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1735791004200</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +284,7 @@
     <MESSAGE value="fixed menu link in learner.html" />
     <MESSAGE value="added big O notation" />
     <MESSAGE value="new web page CurriculumVitae.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="new web page CurriculumVitae.html" />
+    <MESSAGE value="removed button in menu for CurriculumVitae.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed button in menu for CurriculumVitae.html" />
   </component>
 </project>
