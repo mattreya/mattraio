@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="Added button and resume link to index.html" />
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="Added button and resume link to index.html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learner.html" beforeDir="false" afterPath="$PROJECT_DIR$/learner.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +112,8 @@
       <workItem from="1735766328234" duration="1788000" />
       <workItem from="1735790939522" duration="1024000" />
       <workItem from="1735867593960" duration="4075000" />
-      <workItem from="1735937942574" duration="331000" />
+      <workItem from="1735937942574" duration="475000" />
+      <workItem from="1735941004738" duration="53000" />
     </task>
     <task id="LOCAL-00001" summary="innovator page">
       <option name="closed" value="true" />
@@ -303,7 +307,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735938237824</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Added button and resume link to index.html">
+      <option name="closed" value="true" />
+      <created>1735938296323</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1735938296323</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
