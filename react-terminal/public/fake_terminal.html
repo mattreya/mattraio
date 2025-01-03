@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    </head>
+    <style>
+        #screen{
+            position: relative;
+            width: 500px;
+            height: 500px;
+            background-color: darkslategray;
+        }
+        #scan,
+        #bezel{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top:0;
+            left:0;
+            pointer-events: none;
+        }
+        #scan{
+            opacity: 80;
+        }
+        .no-select {
+            user-select: none; /* Prevent text selection */
+            -webkit-user-select: none; /* For Safari */
+            -moz-user-select: none; /* For Firefox */
+            -ms-user-select: none; /* For Internet Explorer */
+        }
+
+        #content{
+            font-family: 'VT323', monospace;
+            padding: 50px;
+            color: #bcf585;
+            font-size: 30px;
+            text-shadow: 2px 2px 4px #bcf585;
+        }
+    </style>
+    <body>
+        <div id="screen">
+            <img src="scanlines.png" id="scan">
+            <img src="bezel.png" id="bezel" class="no-select">
+            <div id="content">
+                Do you want to play a game?
+            </div>
+        </div>
+
+    </body>
+</html>
