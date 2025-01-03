@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="created an old school terminal screen based off of https://www.youtube.com/watch?v=8MXA07BZLqo">
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="added options on the screen for user to choose. then it clears the screen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-terminal/public/fake_terminal.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-terminal/public/fake_terminal.html" afterDir="false" />
     </list>
@@ -111,7 +111,7 @@
       <workItem from="1735606311568" duration="1896000" />
       <workItem from="1735766328234" duration="1788000" />
       <workItem from="1735790939522" duration="1024000" />
-      <workItem from="1735867593960" duration="3065000" />
+      <workItem from="1735867593960" duration="3940000" />
     </task>
     <task id="LOCAL-00001" summary="innovator page">
       <option name="closed" value="true" />
@@ -281,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735870008760</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added options on the screen for user to choose. then it clears the screen">
+      <option name="closed" value="true" />
+      <created>1735870718213</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1735870718213</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,6 +323,7 @@
     <MESSAGE value="removed button in menu for CurriculumVitae.html" />
     <MESSAGE value="worked on links in terminal.html" />
     <MESSAGE value="created an old school terminal screen based off of https://www.youtube.com/watch?v=8MXA07BZLqo" />
-    <option name="LAST_COMMIT_MESSAGE" value="created an old school terminal screen based off of https://www.youtube.com/watch?v=8MXA07BZLqo" />
+    <MESSAGE value="added options on the screen for user to choose. then it clears the screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="added options on the screen for user to choose. then it clears the screen" />
   </component>
 </project>

@@ -3,7 +3,7 @@
 <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-    <title>Retro Terminal</title>
+    <title>Retro Terminal with Scrolling</title>
     <style>
         #screen {
             position: relative;
@@ -24,19 +24,16 @@
             opacity: 0.8;
         }
         .no-select {
-            user-select: none; /* Prevent text selection */
-            -webkit-user-select: none; /* For Safari */
-            -moz-user-select: none; /* For Firefox */
-            -ms-user-select: none; /* For Internet Explorer */
+            user-select: none;
         }
         #content {
             font-family: 'VT323', monospace;
-            padding: 50px;
+            padding: 40px 20px 10px 20px; /* Adjust bottom padding */
             color: #bcf585;
-            font-size: 30px;
+            font-size: 20px;
             text-shadow: 2px 2px 4px #bcf585;
-            overflow-y: auto;
-            height: 400px;
+            overflow: hidden;
+            height: 380px; /* Reduced height to accommodate bottom text */
         }
         #terminal-input {
             font-family: 'VT323', monospace;
@@ -45,7 +42,10 @@
             color: #bcf585;
             font-size: 20px;
             width: 90%;
+            margin-left: 25px; /* Move input field to the right */
             outline: none;
+            position: relative;
+            top: 10px; /* Adjust vertical position of input */
         }
     </style>
 </head>
@@ -55,51 +55,69 @@
     <img src="bezel.png" id="bezel" class="no-select" alt="Bezel">
     <div id="content">
         Do you want to play a game?<br>
-        PRESS 1: View File A<br>
-        PRESS 2: View File B<br>
+        PRESS 1: Top Secret Story #1<br>
+        PRESS 2: Missile Codes<br>
         PRESS 3: Exit<br>
-        <span id="terminal-output"></span>
     </div>
     <input type="text" id="terminal-input" placeholder="Type your command (1, 2, or 3) and press Enter...">
 </div>
 <script>
     document.addEventListener("DOMContentLoaded", () => {
         const terminalInput = document.getElementById("terminal-input");
-        const terminalOutput = document.getElementById("terminal-output");
+        const terminalOutput = document.getElementById("content");
 
         const files = {
-            "1": "This is the content of File A.",
-            "2": "This is the content of File B.",
-            "3": "Goodbye!",
+            "1": "This is the content of File A. It has multiple lines to read and is loaded dynamically. Each spacebar reveals more content.\n" +
+                "Line 2 of File A." +
+                "\nLine 3 of File A." +
+                "\nLine 4 of File A." +
+                "\nEnd of File A.",
+            "2": "This is the content of File B. Similar to File A, it will display more lines as you press the spacebar.\nLine 2 of File B.\nLine 3 of File B.\nLine 4 of File B.\nEnd of File B."
         };
 
-        let lineCount = 0;
-        const maxLines = 10; // Adjust this for how many lines fit on the screen
+        let currentFile = null;
+        let currentLines = [];
+        let currentIndex = 0;
 
         terminalInput.addEventListener("keydown", (event) => {
             if (event.key === "Enter") {
                 const command = terminalInput.value.trim();
-                terminalInput.value = ""; // Clear the input
+                terminalInput.value = "";
 
-                if (files[command]) {
-                    terminalOutput.innerHTML += `<br>> ${command}<br>${files[command]}`;
+                if (command === "1" || command === "2") {
+                    currentFile = files[command].split("\n");
+                    currentIndex = 0;
+                    terminalOutput.innerHTML = "> Loading File " + (command === "1" ? "A" : "B") + "...<br>";
+                    displayNextLines();
+                } else if (command === "3") {
+                    terminalOutput.innerHTML = "> Exiting... Goodbye!<br>";
+                    currentFile = null;
+                    currentLines = [];
+                    currentIndex = 0;
                 } else {
-                    terminalOutput.innerHTML += `<br>> ${command}<br>Invalid command. Press 1, 2, or 3.`;
+                    terminalOutput.innerHTML += "> Invalid command. Press 1, 2, or 3.<br>";
                 }
-
-                // Increment line count (each command and response are treated as two lines)
-                lineCount += 2;
-
-                if (lineCount >= maxLines) {
-                    // Clear the screen
-                    terminalOutput.innerHTML = "Screen cleared. Continuing...";
-                    lineCount = 1; // Reset line count
-                }
-
-                // Scroll to bottom
-                terminalOutput.scrollTop = terminalOutput.scrollHeight;
+            } else if (event.key === " " && currentFile) {
+                displayNextLines();
+                event.preventDefault(); // Prevent default spacebar action
             }
         });
+
+        function displayNextLines() {
+            const linesPerPage = 3;
+            const nextLines = currentFile.slice(currentIndex, currentIndex + linesPerPage);
+
+            if (nextLines.length > 0) {
+                terminalOutput.innerHTML += nextLines.join("<br>") + "<br>";
+                currentIndex += linesPerPage;
+            } else {
+                terminalOutput.innerHTML += "<br>End of file. Press Enter to return.<br>";
+                currentFile = null; // Reset file to prevent further scrolling
+            }
+
+            // Ensure the terminal scrolls to the bottom
+            terminalOutput.scrollTop = terminalOutput.scrollHeight;
+        }
     });
 </script>
 </body>
