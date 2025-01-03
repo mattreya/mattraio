@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="worked on links in terminal.html">
-      <change afterPath="$PROJECT_DIR$/react-terminal/public/fake_terminal.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-terminal/public/scanlines.png" afterDir="false" />
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="created an old school terminal screen based off of https://www.youtube.com/watch?v=8MXA07BZLqo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-terminal/public/fake_terminal.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-terminal/public/fake_terminal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +111,7 @@
       <workItem from="1735606311568" duration="1896000" />
       <workItem from="1735766328234" duration="1788000" />
       <workItem from="1735790939522" duration="1024000" />
-      <workItem from="1735867593960" duration="2354000" />
+      <workItem from="1735867593960" duration="3065000" />
     </task>
     <task id="LOCAL-00001" summary="innovator page">
       <option name="closed" value="true" />
@@ -274,7 +273,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735791952441</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="created an old school terminal screen based off of https://www.youtube.com/watch?v=8MXA07BZLqo">
+      <option name="closed" value="true" />
+      <created>1735870008760</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1735870008760</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +314,7 @@
     <MESSAGE value="new web page CurriculumVitae.html" />
     <MESSAGE value="removed button in menu for CurriculumVitae.html" />
     <MESSAGE value="worked on links in terminal.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="worked on links in terminal.html" />
+    <MESSAGE value="created an old school terminal screen based off of https://www.youtube.com/watch?v=8MXA07BZLqo" />
+    <option name="LAST_COMMIT_MESSAGE" value="created an old school terminal screen based off of https://www.youtube.com/watch?v=8MXA07BZLqo" />
   </component>
 </project>

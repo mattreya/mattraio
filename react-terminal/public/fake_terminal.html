@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-    </head>
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Retro Terminal</title>
     <style>
-        #screen{
+        #screen {
             position: relative;
             width: 500px;
             height: 500px;
             background-color: darkslategray;
         }
         #scan,
-        #bezel{
+        #bezel {
             position: absolute;
             width: 100%;
             height: 100%;
-            top:0;
-            left:0;
+            top: 0;
+            left: 0;
             pointer-events: none;
         }
-        #scan{
-            opacity: 80;
+        #scan {
+            opacity: 0.8;
         }
         .no-select {
             user-select: none; /* Prevent text selection */
@@ -29,23 +29,78 @@
             -moz-user-select: none; /* For Firefox */
             -ms-user-select: none; /* For Internet Explorer */
         }
-
-        #content{
+        #content {
             font-family: 'VT323', monospace;
             padding: 50px;
             color: #bcf585;
             font-size: 30px;
             text-shadow: 2px 2px 4px #bcf585;
+            overflow-y: auto;
+            height: 400px;
+        }
+        #terminal-input {
+            font-family: 'VT323', monospace;
+            background: darkslategray;
+            border: none;
+            color: #bcf585;
+            font-size: 20px;
+            width: 90%;
+            outline: none;
         }
     </style>
-    <body>
-        <div id="screen">
-            <img src="scanlines.png" id="scan">
-            <img src="bezel.png" id="bezel" class="no-select">
-            <div id="content">
-                Do you want to play a game?
-            </div>
-        </div>
+</head>
+<body>
+<div id="screen">
+    <img src="scanlines.png" id="scan" alt="Scanlines">
+    <img src="bezel.png" id="bezel" class="no-select" alt="Bezel">
+    <div id="content">
+        Do you want to play a game?<br>
+        PRESS 1: View File A<br>
+        PRESS 2: View File B<br>
+        PRESS 3: Exit<br>
+        <span id="terminal-output"></span>
+    </div>
+    <input type="text" id="terminal-input" placeholder="Type your command (1, 2, or 3) and press Enter...">
+</div>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const terminalInput = document.getElementById("terminal-input");
+        const terminalOutput = document.getElementById("terminal-output");
 
-    </body>
+        const files = {
+            "1": "This is the content of File A.",
+            "2": "This is the content of File B.",
+            "3": "Goodbye!",
+        };
+
+        let lineCount = 0;
+        const maxLines = 10; // Adjust this for how many lines fit on the screen
+
+        terminalInput.addEventListener("keydown", (event) => {
+            if (event.key === "Enter") {
+                const command = terminalInput.value.trim();
+                terminalInput.value = ""; // Clear the input
+
+                if (files[command]) {
+                    terminalOutput.innerHTML += `<br>> ${command}<br>${files[command]}`;
+                } else {
+                    terminalOutput.innerHTML += `<br>> ${command}<br>Invalid command. Press 1, 2, or 3.`;
+                }
+
+                // Increment line count (each command and response are treated as two lines)
+                lineCount += 2;
+
+                if (lineCount >= maxLines) {
+                    // Clear the screen
+                    terminalOutput.innerHTML = "Screen cleared. Continuing...";
+                    lineCount = 1; // Reset line count
+                }
+
+                // Scroll to bottom
+                terminalOutput.scrollTop = terminalOutput.scrollHeight;
+            }
+        });
+    });
+</script>
+</body>
 </html>
