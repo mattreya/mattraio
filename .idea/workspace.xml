@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="updated contact information in learner.html">
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="added notation on terminal.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-terminal/public/fake_terminal.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-terminal/public/fake_terminal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-terminal/public/terminal.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-terminal/public/terminal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +118,7 @@
       <workItem from="1735965112897" duration="390000" />
       <workItem from="1735965535418" duration="89000" />
       <workItem from="1736010608565" duration="1251000" />
-      <workItem from="1736018485461" duration="2729000" />
+      <workItem from="1736018485461" duration="3121000" />
     </task>
     <task id="LOCAL-00001" summary="innovator page">
       <option name="closed" value="true" />
@@ -332,7 +328,31 @@
       <option name="project" value="LOCAL" />
       <updated>1735941072303</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="created a terminal page. fixed index.html issues">
+      <option name="closed" value="true" />
+      <created>1736021262130</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1736021262130</updated>
+    </task>
+    <task id="LOCAL-00028" summary="fixed menu option in index.html">
+      <option name="closed" value="true" />
+      <created>1736021428947</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1736021428947</updated>
+    </task>
+    <task id="LOCAL-00029" summary="added notation on terminal.html">
+      <option name="closed" value="true" />
+      <created>1736021618244</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1736021618244</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -370,6 +390,9 @@
     <MESSAGE value="adding content to the screen" />
     <MESSAGE value="Added button and resume link to index.html" />
     <MESSAGE value="updated contact information in learner.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated contact information in learner.html" />
+    <MESSAGE value="created a terminal page. fixed index.html issues" />
+    <MESSAGE value="fixed menu option in index.html" />
+    <MESSAGE value="added notation on terminal.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="added notation on terminal.html" />
   </component>
 </project>
