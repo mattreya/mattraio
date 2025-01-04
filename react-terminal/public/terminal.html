@@ -12,6 +12,54 @@
 		<link rel="stylesheet" href="../../assets/css/main.css" />
 		<link rel="stylesheet" href="../../assets/css/xterm.css">
 		<noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="../css/styles.css">
+		<title>Retro Terminal with Scrolling</title>
+		<style>
+			#screen {
+				position: relative;
+				width: 300px;
+				height: 300px;
+				background-color: darkslategray;
+			}
+			#scan,
+			#bezel {
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				top: 0;
+				left: 0;
+				pointer-events: none;
+			}
+			#scan {
+				opacity: 0.8;
+			}
+			.no-select {
+				user-select: none;
+			}
+			#content {
+				font-family: 'VT323', monospace;
+				padding: 40px 20px 10px 20px; /* Adjust bottom padding */
+				color: #bcf585;
+				font-size: 20px;
+				text-shadow: 2px 2px 4px #bcf585;
+				overflow: hidden;
+				height: 380px; /* Reduced height to accommodate bottom text */
+			}
+			#terminal-input {
+				font-family: 'VT323', monospace;
+				background: darkslategray;
+				border: none;
+				color: #bcf585;
+				font-size: 20px;
+				width: 90%;
+				margin-left: 25px; /* Move input field to the right */
+				outline: none;
+				position: relative;
+				top: 10px; /* Adjust vertical position of input */
+			}
+		</style>
 	</head>
 	<body>
 	<div id="terminal-container"></div>
@@ -35,17 +83,18 @@
 
 				<!-- Menu -->
 					<nav id="menu">
-						<!--
 						<ul class="links">
 							<li><a href="index.html">Home</a></li>
-							<li><a href="landing.html">Landing</a></li>
-							<li><a href="generic.html">Generic</a></li>
-							<li><a href="elements.html">Elements</a></li>
+							<li><a href="innovator.html">Innovator</a></li>
+							<li><a href="learner.html">Learner</a></li>
+							<li><a href="mentor.html">Mentor</a></li>
 						</ul>
-						-->
+
 						<ul class="actions stacked">
+							<!--
 							<li><a href="#" class="button primary fit">Get Started</a></li>
 							<li><a href="#" class="button fit">Log In</a></li>
+							-->
 						</ul>
 					</nav>
 
@@ -79,42 +128,49 @@
 							</section>
 
 						<!-- Two -->
-							<section id="two" class="spotlights">
-								<section>
-									<a href="" class="image">
-										<img src="../../images/pic08.jpg" alt="" data-position="center center" />
-											<iframe src="" style="width: 100%; height: 100%; border: none;"></iframe>
+						<section id="two" class="spotlights">
+							<!-- Terminal Section -->
+							<section>
+								<div id="background-container">
+									<iframe id="terminal-iframe" src="fake_terminal.html" style="width: 200%; height: 200%; border: none;"></iframe>
+								</div>
 
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Orci maecenas</h3>
-											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-											<ul class="actions">
-												<li><a href="../../generic.html" class="button">Learn more</a></li>
-											</ul>
-										</div>
+
+								<div class="content" style="margin-left: 200px;">
+									<div class="inner">
+										<header class="major">
+											<h3> <----- Using no react.js</h3>
+										</header>
+										<p>This was inspired from a youtube by Niklas Ziermann. The addition I worked on was making the screen prompt for a scrolling feature so I can enter an interesting story embedded in this smaller .html code.</p>
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/8MXA07BZLqo?si=PpRtq_rRpoUA7F5W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 									</div>
-								</section>
-								<section>
-									<a href="../../generic.html" class="image">
-										<img src="../../images/pic09.jpg" alt="" data-position="top center" />
-									</a>
-									<div class="content">
-										<div class="inner">
-											<header class="major">
-												<h3>Rhoncus magna</h3>
-											</header>
-											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
-											<ul class="actions">
-												<li><a href="../../generic.html" class="button">Learn more</a></li>
-											</ul>
-										</div>
+								</div>
+							</section>
+
+							<!-- Generic Image Section -->
+							<section>
+								<a href="../../generic.html" class="image">
+									<img src="../../images/pic09.jpg" alt="" data-position="top center" />
+								</a>
+								<div class="content">
+									<div class="inner">
+										<header class="major">
+											<h3>Using React.js</h3>
+										</header>
+										<p>Future project is to create a real working BASH command line in a working terminal page. </p>
+										<ul class="actions">
+											<!--<li><a href="../../generic.html" class="button">Learn more</a></li>-->
+										</ul>
 									</div>
-								</section>
-								<section>
+								</div>
+							</section>
+								-->
+						</section>
+
+
+						<section>
+							<!--
 									<a href="../../generic.html" class="image">
 										<img src="../../images/pic10.jpg" alt="" data-position="25% 25%" />
 									</a>
@@ -132,7 +188,7 @@
 								</section>
 							</section>
 
-						<!-- Three -->
+
 							<section id="three">
 								<div class="inner">
 									<header class="major">
@@ -144,6 +200,9 @@
 									</ul>
 								</div>
 							</section>
+							-->
+						</section>
+
 
 					</div>
 
@@ -177,14 +236,14 @@
 									<div class="contact-method">
 										<span class="icon solid alt fa-envelope"></span>
 										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
+										<a href="#">matt.raio@gmail.com</a>
 									</div>
 								</section>
 								<section>
 									<div class="contact-method">
 										<span class="icon solid alt fa-phone"></span>
 										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
+										<span>(425) 275-8605</span>
 									</div>
 								</section>
 								<section>
@@ -192,7 +251,7 @@
 										<span class="icon solid alt fa-home"></span>
 										<h3>Address</h3>
 										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
+										Seattle, WA 00000<br />
 										United States of America</span>
 									</div>
 								</section>

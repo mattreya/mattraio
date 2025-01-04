@@ -8,7 +8,7 @@
         #screen {
             position: relative;
             width: 500px;
-            height: 500px;
+            height: 350px;
             background-color: darkslategray;
         }
         #scan,
@@ -33,7 +33,7 @@
             font-size: 20px;
             text-shadow: 2px 2px 4px #bcf585;
             overflow: hidden;
-            height: 380px; /* Reduced height to accommodate bottom text */
+            height: 240px; /* Reduced height to accommodate bottom text */
         }
         #terminal-input {
             font-family: 'VT323', monospace;
@@ -67,12 +67,16 @@
         const terminalOutput = document.getElementById("content");
 
         const files = {
-            "1": "This is the content of File A. It has multiple lines to read and is loaded dynamically. Each space bar reveals more content.\n" +
+            "1": "I plan on actually writing something in here. \n" +
                 "Line 2 of File A." +
                 "\nLine 3 of File A." +
                 "\nLine 4 of File A." +
                 "\nEnd of File A.",
-            "2": "This is the content of File B. Similar to File A, it will display more lines as you press the space bar.\nLine 2 of File B.\nLine 3 of File B.\nLine 4 of File B.\nEnd of File B."
+            "2": "Same, I'm going to insert another story maybe a reference to Dark Reading." +
+                "\nLine 2 of File B." +
+                "\nLine 3 of File B." +
+                "\nLine 4 of File B." +
+                "\nEnd of File B."
         };
 
         let currentFile = null;

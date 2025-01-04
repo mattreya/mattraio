@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="Added button and resume link to index.html">
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="updated contact information in learner.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learner.html" beforeDir="false" afterPath="$PROJECT_DIR$/learner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-terminal/public/fake_terminal.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-terminal/public/fake_terminal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-terminal/public/terminal.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-terminal/public/terminal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +64,14 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/matt.raio/WebstormProjects/SimplePortfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/matt.raio/WebstormProjects/SimplePortfolio/react-terminal/public/fake_terminal2.html&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/matt.raio/WebstormProjects/SimplePortfolio/react-terminal/public/fake_terminal2.html&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -113,7 +117,12 @@
       <workItem from="1735790939522" duration="1024000" />
       <workItem from="1735867593960" duration="4075000" />
       <workItem from="1735937942574" duration="475000" />
-      <workItem from="1735941004738" duration="53000" />
+      <workItem from="1735941004738" duration="197000" />
+      <workItem from="1735957997216" duration="1898000" />
+      <workItem from="1735965112897" duration="390000" />
+      <workItem from="1735965535418" duration="89000" />
+      <workItem from="1736010608565" duration="1251000" />
+      <workItem from="1736018485461" duration="2729000" />
     </task>
     <task id="LOCAL-00001" summary="innovator page">
       <option name="closed" value="true" />
@@ -315,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1735938296323</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="updated contact information in learner.html">
+      <option name="closed" value="true" />
+      <created>1735941072303</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1735941072303</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,6 +369,7 @@
     <MESSAGE value="added options on the screen for user to choose. then it clears the screen" />
     <MESSAGE value="adding content to the screen" />
     <MESSAGE value="Added button and resume link to index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added button and resume link to index.html" />
+    <MESSAGE value="updated contact information in learner.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated contact information in learner.html" />
   </component>
 </project>

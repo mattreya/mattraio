@@ -8,3 +8,30 @@
     object-fit: cover;
     border: 2px solid #ccc;
 }
+#background-container {
+    position: relative;
+    width: 100%; /* Adjust to fit your design */
+    max-width: 800px; /* Limit size for responsiveness */
+    height: 500px; /* Match the terminal's height */
+    margin: 0 auto; /* Center the container */
+    background-color: black; /* Or use an image: url('../../images/background.jpg'); */
+    overflow: hidden; /* Prevent overflow issues */
+}
+
+#terminal-iframe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.content {
+    position: relative;
+    margin-top: 520px; /* Adjust to move below the terminal section */
+}
+
+.inner {
+    padding: 20px;
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional, for a cleaner look */
+}
