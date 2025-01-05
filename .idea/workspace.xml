@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="added notation on terminal.html">
+    <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="fixed bezel in terminal.html">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-terminal/public/terminal.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-terminal/public/terminal.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +120,7 @@
       <workItem from="1735965535418" duration="89000" />
       <workItem from="1736010608565" duration="1251000" />
       <workItem from="1736018485461" duration="3121000" />
-      <workItem from="1736022714884" duration="343000" />
+      <workItem from="1736022714884" duration="2454000" />
     </task>
     <task id="LOCAL-00001" summary="innovator page">
       <option name="closed" value="true" />
@@ -361,7 +362,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736022748454</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="fixed bezel in terminal.html">
+      <option name="closed" value="true" />
+      <created>1736023082310</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1736023082310</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,6 +411,7 @@
     <MESSAGE value="created a terminal page. fixed index.html issues" />
     <MESSAGE value="fixed menu option in index.html" />
     <MESSAGE value="added notation on terminal.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="added notation on terminal.html" />
+    <MESSAGE value="fixed bezel in terminal.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bezel in terminal.html" />
   </component>
 </project>
