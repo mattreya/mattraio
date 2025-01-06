@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ab172597-b647-4c72-9b2a-4e998e48fa17" name="Changes" comment="fixed bezel in terminal.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-terminal/public/terminal.html" beforeDir="false" afterPath="$PROJECT_DIR$/react-terminal/public/terminal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CurriculumVitae.html" beforeDir="false" afterPath="$PROJECT_DIR$/CurriculumVitae.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +121,8 @@
       <workItem from="1736010608565" duration="1251000" />
       <workItem from="1736018485461" duration="3121000" />
       <workItem from="1736022714884" duration="2454000" />
+      <workItem from="1736045364350" duration="184000" />
+      <workItem from="1736192563929" duration="1192000" />
     </task>
     <task id="LOCAL-00001" summary="innovator page">
       <option name="closed" value="true" />
@@ -370,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736023082310</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="fixed bezel in terminal.html">
+      <option name="closed" value="true" />
+      <created>1736045529020</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1736045529020</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
