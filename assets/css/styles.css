@@ -35,3 +35,22 @@
 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional, for a cleaner look */
 }
+.text-and-video {
+    display: flex;
+    align-items: stretch; /* Ensures both the paragraph and the iframe are the same height */
+    gap: 20px; /* Adds space between the paragraph and iframe */
+}
+
+.text-and-video p {
+    flex: 1; /* Makes the paragraph take up the remaining width */
+    margin: 0;
+    height: 315px; /* Matches the iframe's height */
+    overflow: auto; /* Adds a scrollbar if the text overflows the container */
+    line-height: 1.5; /* Adjusts line spacing for better readability */
+    padding: 10px; /* Optional: Adds padding inside the paragraph */
+    box-sizing: border-box; /* Includes padding in the height calculation */
+}
+
+.text-and-video iframe {
+    flex-shrink: 0; /* Keeps the iframe at its natural size */
+}

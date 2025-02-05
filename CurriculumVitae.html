@@ -11,6 +11,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.text-and-video {
+				display: flex;
+				align-items: flex-start;
+				gap: 20px;
+			}
+
+			.text-and-video p {
+				flex: 1;
+				margin: 0;
+			}
+
+			.text-and-video iframe {
+				flex-shrink: 0;
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -80,9 +96,21 @@
 											<header class="major">
 												<h3>Building Bridges Lecture at Washington State</h3>
 											</header>
-											<p>During COVID, I was invited to speak on layer 2 SDN. There was this little known company in the UK that was pioneering a new protocol that allowed AI to change keys without user intervention. This means you can now trunk layer 2 traffic safely. I brainstormed and realized you can create an abstracted network layer  "like" NSX from VMWare. The applications in building a mezzanine network layer is the concept I created.</p>
-											<iframe width="560" height="315" src="https://www.youtube.com/embed/To2mUwdlvao?si=RAvDns84SyRtrj7Z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-											</ul>
+											<div class="text-and-video">
+												<p>
+													During COVID, I was invited to speak on layer 2 SDN. There was this little known company in the UK that was pioneering a new protocol that allowed AI to change keys without user intervention. This means you can now trunk layer 2 traffic safely. I brainstormed and realized you can create an abstracted network layer "like" NSX from VMWare. The applications in building a mezzanine network layer is the concept I created.
+												</p>
+												<iframe
+														width="560"
+														height="315"
+														src="https://www.youtube.com/embed/To2mUwdlvao?si=RAvDns84SyRtrj7Z"
+														title="YouTube video player"
+														frameborder="0"
+														allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+														referrerpolicy="strict-origin-when-cross-origin"
+														allowfullscreen>
+												</iframe>
+											</div>
 										</div>
 									</div>
 								</section>
